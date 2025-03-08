@@ -6,7 +6,7 @@
         class="logo-link"
         @mouseenter="$emit('hoverIn')"
         @mouseleave="$emit('hoverOut')"
-        ><img src="/assets/micahlt-small.png" class="logo"
+        ><img src="/s01k.svg" class="logo" style="height: 25%"
       /></router-link>
     </div>
     <div class="nav-links">

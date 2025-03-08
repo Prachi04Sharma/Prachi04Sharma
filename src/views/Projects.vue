@@ -3,64 +3,34 @@ import NavBar from "../components/NavBar.vue";
 let images = [];
 const projects = [
   {
-    name: "The Caf App",
-    image: "/assets/projects/thecafapp.png",
-    subtitle: "Info for the Caf at Mississippi College",
-    url: "https://thecaf.app",
+    name: "Ask Me Kuch Bhi",
+    image: "/assets/projects/ask-me-kuch-bhi.png",
+    subtitle: "Anonymous Q&A platform",
+    url: "https://ai-feedback-saas-3u22.vercel.app/u/kapilsharma",
   },
   {
-    name: "Offsides",
-    image: "/assets/projects/offsides.png",
-    subtitle: "A YikYak client for Android",
-    url: "https://offsides.micahlindley.com",
+    name: "Social Media Platform",
+    image: "/assets/projects/social-media.png",
+    subtitle: "Social Media Platform like Twitter",
+    url: "https://threads-zyc9.onrender.com/",
+  },
+  // {
+  //   name: "Let's Blog",
+  //   image: "/assets/projects/lets-blog.png",
+  //   subtitle: "Appwrite Powered Blogging Platform",
+  //   url: "https://appwriteblog-nu.vercel.app/",
+  // },
+  {
+    name: "Image Gallery",
+    image: "/assets/projects/image-gallery.png",
+    subtitle: "Next.js Image Gallery",
+    url: "https://t3gallery-six-gray.vercel.app/",
   },
   {
-    name: "Itchy",
-    image: "/assets/projects/itchy.png",
-    subtitle: "A mobile app for Scratch",
-    url: "https://itchy.micahlindley.com",
-  },
-  {
-    name: "Vesper",
-    image: "/assets/projects/vesper.png",
-    subtitle: "Easy and fast YouTube downloader",
-    url: "https://vesper.micahlindley.com",
-  },
-  {
-    name: "Caf Data",
-    image: "/assets/projects/cafdata.png",
-    subtitle: "Historical caf rating analysis",
-    url: "https://data.thecaf.app",
-  },
-  {
-    name: "Tzutujil.org",
-    image: "/assets/projects/tzdb.png",
-    subtitle: "Maya Tz'utujil language dictionary",
-    url: "https://tzutujil.org",
-  },
-  {
-    name: "wasteof for Android",
-    image: "/assets/projects/wasteof.png",
-    subtitle: "Mobile client for wasteof.money",
-    url: "https://play.google.com/store/apps/details?id=com.micahlindley.wasteofmobile",
-  },
-  {
-    name: "DOMPong",
-    image: "/assets/projects/dompong.png",
-    subtitle: "Pong clone in HTML, no canvas",
-    url: "https://dompong.micahlindley.com",
-  },
-  {
-    name: "Scratch Import Fixer",
-    image: "/assets/projects/sif.png",
-    subtitle: "Fix SVGs created in Affinity",
-    url: "https://sif.micahlindley.com",
-  },
-  {
-    name: "See more",
-    image: "/assets/projects/github.jpg",
-    subtitle: "There's more on my GitHub profile!",
-    url: "https://github.com/micahlt",
+    name: "Shail",
+    image: "/assets/projects/shail.png",
+    subtitle: "Shail: A Shell in C",
+    url: "https://github.com/sharma01ketan/Shail",
   },
 ];
 export default {
@@ -108,7 +78,9 @@ export default {
 <template>
   <main>
     <h1 class="background">Projects</h1>
-    <img src="/assets/micahlt-rotate.png" class="spinner rotate" />
+    <router-link to="/">
+      <img src="/s01k.svg" class="spinner rotate" alt="Logo" />
+    </router-link>
     <NavBar @hoverIn="$emit('hoverIn')" @hoverOut="$emit('hoverOut')" />
     <div class="project-grid">
       <a

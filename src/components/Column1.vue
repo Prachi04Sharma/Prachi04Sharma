@@ -1,17 +1,22 @@
 <script>
-import simpleIcons from "simple-icons";
+import siLinkedin from "simple-icons/icons/linkedin";
+import siGithub from "simple-icons/icons/github";
+import siDribbble from "simple-icons/icons/dribbble";
+import siStackoverflow from "simple-icons/icons/stackoverflow";
+import siYoutube from "simple-icons/icons/youtube";
+import siTwitter from "simple-icons/icons/twitter";
 export default {
   title: "Column1",
   emits: ["hoverIn", "hoverOut"],
   data() {
     return {
       i: {
-        linkedin: simpleIcons.Get("linkedin").svg,
-        github: simpleIcons.Get("github").svg,
-        dribbble: simpleIcons.Get("dribbble").svg,
-        stackoverflow: simpleIcons.Get("stackoverflow").svg,
-        youtube: simpleIcons.Get("youtube").svg,
-        twitter: simpleIcons.Get("twitter").svg, // Add this line!
+        linkedin: siLinkedin.svg,
+        github: siGithub.svg,
+        dribbble: siDribbble.svg,
+        stackoverflow: siStackoverflow.svg,
+        youtube: siYoutube.svg,
+        twitter: siTwitter.svg,
       },
     };
   },
@@ -30,7 +35,7 @@ export default {
           @mouseleave="$emit('hoverOut')"
           >Plane</a
         > since graduating from NIT Srinagar, with a Bachelor of Technology in Information Technology.<br/><br/>
-        I have experience in Full-Stack development, DevOps, and Generative AIs, with contributions to open-source projects. <br/><br/>
+        I have experience in Full-Stack development, Generative AIs, and DevOps, with contributions to open-source projects. <br/><br/>
         Passionate about engineering software, 
         I work with 
         <a
@@ -55,27 +60,25 @@ export default {
           href="https://www.docker.com/ "
           @mouseenter="$emit('hoverIn')"
           @mouseleave="$emit('hoverOut')"
-          >cloud technologies
-          </a
-        >.<br/><br/>
+          >cloud technologies</a>
+        .<br/><br/>
         Aside from web development, I'm a Java-loving ❤️ LeetCode monkey who enjoys reading non-fiction books in his free time. 
         <br/> <br/>
         While you're here, feel free to check out my 
-        <a
-          href="https://github.com/sharma01ketan"
+        <router-link
+          to="/projects"
           @mouseenter="$emit('hoverIn')"
           @mouseleave="$emit('hoverOut')"
           class="special-link"
-          >projects
-        </a> 
+          >projects</router-link
+        >
         or 
         <a
           href="https://www.linkedin.com/in/sharma01ketan/"
           @mouseenter="$emit('hoverIn')"
           @mouseleave="$emit('hoverOut')"
           class="special-link"
-          >get in touch
-        </a>.
+          >get in touch</a>.
       
       </p>
       <div class="socials">
@@ -87,7 +90,7 @@ export default {
         ></a>
         <a
           v-html="i.github"
-          href="https://github.com/sharma01ketan"
+          href="/projects"
           @mouseenter="$emit('hoverIn')"
           @mouseleave="$emit('hoverOut')"
         ></a>
