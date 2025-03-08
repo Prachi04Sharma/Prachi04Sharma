@@ -6,7 +6,7 @@ const projects = [
     name: "Ask Me Kuch Bhi",
     image: "/assets/projects/ask-me-kuch-bhi.png",
     subtitle: "Anonymous Q&A platform",
-    url: "https://ai-feedback-saas-3u22.vercel.app/u/kapilsharma",
+    url: "https://ai-feedback-saas-3u22.vercel.app/u/kapilSharma",
   },
   {
     name: "Social Media Platform",
