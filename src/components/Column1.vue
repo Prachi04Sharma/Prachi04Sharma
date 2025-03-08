@@ -90,7 +90,7 @@ export default {
         ></a>
         <a
           v-html="i.github"
-          href="/projects"
+          href="https://github.com/sharma01ketan"
           @mouseenter="$emit('hoverIn')"
           @mouseleave="$emit('hoverOut')"
         ></a>
