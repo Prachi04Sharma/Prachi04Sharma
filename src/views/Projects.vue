@@ -1,7 +1,7 @@
 <script>
 import NavBar from "../components/NavBar.vue";
 let images = [];
-const projects = [
+const projects = [ 
   {
     name: "Ask Me Kuch Bhi",
     image: "/assets/projects/ask-me-kuch-bhi.png",
@@ -9,17 +9,23 @@ const projects = [
     url: "https://ai-feedback-saas-3u22.vercel.app/u/kapilSharma",
   },
   {
+    name: "Jeera",
+    image: "/assets/projects/Jeera.png",
+    subtitle: "Project Management Tool",
+    url: "https://jeera.vercel.app",
+  },
+  {
     name: "Social Media Platform",
     image: "/assets/projects/social-media.png",
-    subtitle: "Social Media Platform like Twitter",
+    subtitle: "Social Media Platform like Twitter", 
     url: "https://threads-zyc9.onrender.com/",
   },
-  // {
-  //   name: "Let's Blog",
-  //   image: "/assets/projects/lets-blog.png",
-  //   subtitle: "Appwrite Powered Blogging Platform",
-  //   url: "https://appwriteblog-nu.vercel.app/",
-  // },
+  {
+    name: "Let's Blog",
+    image: "/assets/projects/lets-blog.png",
+    subtitle: "Appwrite Powered Blogging Platform",
+    url: "https://appwriteblog-nu.vercel.app/",
+  },
   {
     name: "Image Gallery",
     image: "/assets/projects/image-gallery.png",
