@@ -26,45 +26,46 @@ export default {
 <template>
   <div class="column">
     <div class="center">
-      <h1>Hi, I'm sharma01ketan</h1><br/>
+      <h1>Hi, I'm <br />Prachi Sharma</h1>
+      <br />
       <p>
-        I am a Software Engineer at 
+        I am a Fourth Year Computer Science Undergrad at M.I.E.T. Working as a
+        Software Engineer Intern at
         <a
-          href="http://plane.so/"
+          href="https://www.scorora.com/toqi/"
           @mouseenter="$emit('hoverIn')"
           @mouseleave="$emit('hoverOut')"
-          >Plane</a
-        > since graduating from NIT Srinagar, with a Bachelor of Technology in Information Technology.<br/><br/>
-        I have experience in Full-Stack development, Generative AIs, and DevOps, with contributions to open-source projects. <br/><br/>
-        Passionate about engineering software, 
-        I work with 
+          >Scorora</a
+        >. I've built award-winning products at the intersection of Web
+        Development and A.I. <br /><br />
+      </p>
+      <p>
+        <span class="bold-text">Ranked 1</span> in
+        <span class="bold-text">India</span> against
+        <span class="bold-text">50,000 teams</span> in
+        <span class="bold-text">Smart India Hackathon</span>.
+        <span class="bold-text">World Finalist</span> in
+        <span class="bold-text">IEEE</span> YESIST Hackathon 2025.
+        <span class="bold-text">Top 100</span> out of
+        <span class="bold-text">64,000 teams</span> across
+        <span class="bold-text">India</span> in
+        <span class="bold-text">Google Solution Challenge</span>
+        2025.<br /><br />
+        Passionate about crafting scalable and accessible interfaces, I work
+        with <a class="special-link" href="https://react.dev/">React.js</a>,
+        <a class="special-link" href="https://v3.tailwindcss.com/"
+          >Tailwind CSS</a
+        >,
         <a
+          class="special-link"
           href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-          @mouseenter="$emit('hoverIn')"
-          @mouseleave="$emit('hoverOut')"
-          >JavaScript,
-        </a> 
-        <a
-          href="https://nextjs.org/"
-          @mouseenter="$emit('hoverIn')"
-          @mouseleave="$emit('hoverOut')"
-          >Next.js</a
-        >, 
-        <a
-          href="https://mobx.js.org/README.html"
-          @mouseenter="$emit('hoverIn')"
-          @mouseleave="$emit('hoverOut')"
-          >Mobx</a
-        >, and 
-        <a
-          href="https://www.docker.com/ "
-          @mouseenter="$emit('hoverIn')"
-          @mouseleave="$emit('hoverOut')"
-          >cloud technologies</a>
-        .<br/><br/>
-        Aside from web development, I'm a Java-loving ❤️ LeetCode monkey who enjoys reading non-fiction books in his free time. 
-        <br/> <br/>
-        While you're here, feel free to check out my 
+          >JavaScript</a
+        >, and
+        <a class="special-link" href="https://fastapi.tiangolo.com/">FastAPI</a
+        >, while exploring CV, NLP, and Generative AI.
+        <br />
+        <br />
+        While you're here, feel free to check out my
         <router-link
           to="/projects"
           @mouseenter="$emit('hoverIn')"
@@ -72,31 +73,25 @@ export default {
           class="special-link"
           >projects</router-link
         >
-        or 
+        or
         <a
-          href="https://www.linkedin.com/in/sharma01ketan/"
+          href="https://www.linkedin.com/in/prachi2k5sharma/"
           @mouseenter="$emit('hoverIn')"
           @mouseleave="$emit('hoverOut')"
           class="special-link"
-          >get in touch</a>.
-      
+          >get in touch</a
+        >.
       </p>
       <div class="socials">
         <a
           v-html="i.linkedin"
-          href="https://www.linkedin.com/in/sharma01ketan/"
+          href="https://www.linkedin.com/in/prachi2k5sharma/"
           @mouseenter="$emit('hoverIn')"
           @mouseleave="$emit('hoverOut')"
         ></a>
         <a
           v-html="i.github"
-          href="https://github.com/sharma01ketan"
-          @mouseenter="$emit('hoverIn')"
-          @mouseleave="$emit('hoverOut')"
-        ></a>
-        <a
-          v-html="i.twitter"
-          href="https://x.com/sharma01ketan"
+          href="https://github.com/Prachi04Sharma"
           @mouseenter="$emit('hoverIn')"
           @mouseleave="$emit('hoverOut')"
         ></a>
@@ -116,7 +111,7 @@ export default {
 
 .center {
   margin: 1rem auto;
-  max-width: 480px;
+  max-width: 500px;
   padding: 1rem 2.5rem;
 }
 
@@ -146,12 +141,19 @@ p {
 
 p > a {
   color: inherit;
-  font-weight: 500;
+  font-weight: 700;
+  transition: color 0s;
+}
+
+.bold-text {
+  color: var(--bold-text);
+  font-weight: 700;
   transition: color 0s;
 }
 
 .special-link {
   color: var(--accent);
+  font-weight: 700;
 }
 
 .socials {

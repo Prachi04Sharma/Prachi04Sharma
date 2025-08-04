@@ -9,21 +9,23 @@ svg {
 }
 
 :root {
-  --bg-primary: #ffffff;
+  --bg-primary: #f7e948;
   --text-primary: #222;
   --text-secondary: #8a8a8a;
-  --accent: #ff3a3a;
+  --accent: #ff808b;
   --animation-initial: rotateX(90deg) scale(1.35);
   --animation: dropIn 0.7s cubic-bezier(0.04, 0.33, 0.1, 1) forwards;
   --cursor-color: #00c5c5;
+  --bold-text: #222;
 }
 
 :root.dark {
   --bg-primary: #1f1f1f;
   --text-primary: #ffffff;
   --text-secondary: #8a8a8a;
-  --accent: #ff3a3a;
+  --accent: #f7e948;
   --cursor-color: #ff5c5c;
+  --bold-text: #f7e948;
 }
 
 @keyframes dropIn {

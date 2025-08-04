@@ -48,7 +48,7 @@ export default {
     </svg>
     <div class="image-container">
       <img src="/s01k.svg" class="rotating-image" />
-      <img src="/me.jpg" class="avatar" style="transform: scale(1.5);" />
+      <img src="/me.jpg" class="avatar" />
     </div>
   </div>
 </template>
@@ -106,8 +106,8 @@ export default {
   max-width: 60vw;
   max-height: 40vh;
   border-radius: 100%;
-  height: 40vh;
-  width: 40vh;
+  height: 30vh;
+  width: 30vh;
   transform: rotate(0) scale(1.3);
   animation: rotate-intro 2s 1 ease-out, rotate 90s 2s infinite linear;
   transform-origin: center center;
@@ -117,8 +117,8 @@ export default {
 
 .avatar {
   position: absolute;
-  max-width: 50vw;
-  max-height: 30vh;
+  height: 30vh;
+  width: 30vh;
   border-radius: 100%;
   opacity: 0;
   transition: opacity 0.3s ease;

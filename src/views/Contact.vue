@@ -9,22 +9,22 @@ const platforms = [
   {
     name: "LinkedIn",
     icon: siLinkedin.svg,
-    url: "https://www.linkedin.com/in/sharma01ketan/",
+    url: "https://www.linkedin.com/in/prachi2k5sharma/",
   },
   {
     name: "GitHub",
     icon: siGithub.svg,
-    url: "https://github.com/sharma01ketan",
+    url: "https://github.com/Prachi04Sharma",
   },
   {
     name: "Email",
     icon: siGmail.svg,
-    url: "mailto:sharma01ketan@gmail.com",
+    url: "mailto:prachi2k5sharma@gmail.com",
   },
   {
     name: "Phone",
     icon: siGooglemessages.svg,
-    url: "tel:6006653315",
+    url: "tel:6005905828",
   },
 ];
 export default {
