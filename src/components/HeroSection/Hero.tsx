@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen w-full mt-[40px] bg--900/10 max-w-[1400px] mx-auto">
+    <section className="relative h-screen w-full mt-[28px] bg--900/10 max-w-[1400px] mx-auto">
       <div className="flex flex-col items-center justify-start h-full w-full text-center text-[220px] leading-28">
         <h1 className="relative">
           <span className="flex items-center justify-center -rotate-4 -z-10">
@@ -40,10 +40,10 @@ export default function Hero() {
             width={600}
             height={600}
             alt=""
-            className="-translate-y-1/6 mr-auto"
+            className="-translate-y-1/6 mr-auto size-[680px]"
           />
-          <div className="flex flex-col items-center justify-center h-full w-full text-4xl">
-            <div className="flex flex-row items-center justify-start w-full h-fit bg-red-900/20">
+          <div className="flex flex-col items-center justify-center h-full w-full text-4xl gap-8">
+            <div className="flex flex-row items-start justify-start w-full h-fit bg--900/20">
               <Image
                 src="/asset/asset-8.gif"
                 width={50}
@@ -52,11 +52,25 @@ export default function Hero() {
                 className=""
               />
               <div>
-                <span>2X</span> SIH Winner:{" "}
-                <span>1/50,000 Teams in India</span>
+                <div className="inline-block text-5xl w-full">
+                  <div className="w-full text-left">
+                    <span className="text-6xl">2X</span> Smart India Hackathon Winner:{" "}
+                  </div>
+                </div>{" "}
+                <span className="relative">
+                  1/50,000 Teams in{" "}
+                  <Image
+                    src="/icons/flag.png"
+                    width={100}
+                    height={100}
+                    alt=""
+                    className="inline-block absolute bottom-0 -z-10 -translate-x-1/10 opacity-80"
+                  />{" "}
+                  India
+                </span>
               </div>
             </div>
-            <div className="flex flex-row items-center justify-start w-full h-fit bg-red-900/20">
+            <div className="flex flex-row items-start justify-start w-full h-fit bg--900/20 leading-[120%] text-left">
               <Image
                 src="/asset/asset-8.gif"
                 width={50}
@@ -64,7 +78,55 @@ export default function Hero() {
                 alt=""
                 className=""
               />
-              <span>WORLD FINALIST IEEE YESIST: 1/65,000 Teams </span>
+              <div className="flex flex-row items-start justify-start">
+                <div className="text-5xl w-fit whitespace-nowrap">Top 100:</div>
+                <div className="relative">
+                  <Image
+                    src="/icons/google.png"
+                    width={120}
+                    height={120}
+                    alt=""
+                    className="inline-block"
+                  />{" "}
+                  Solution Challenge
+                  <span className="relative inline-block">
+                    {" "}
+                    Against 64,000 Teams in{" "}
+                    <span className="relative">
+                      <Image
+                        src="/icons/flag.png"
+                        width={120}
+                        height={120}
+                        alt=""
+                        className="inline-block absolute bottom-0 -z-10 opacity-80 scale-x-125 scale-y-125 -translate-y-1"
+                      />{" "}
+                      India
+                    </span>{" "}
+                  </span>{" "}
+                </div>{" "}
+              </div>
+            </div>
+            <div className="flex flex-row items-center justify-start w-full h-fit">
+              <Image
+                src="/asset/asset-8.gif"
+                width={50}
+                height={50}
+                alt=""
+                className=""
+              />
+              <span>
+                <span className="text-5xl">World Finalist</span> IEEE Yesist:{" "}
+                <span className="relative">
+                  <span className="relative">Across the </span>{" "}
+                  <Image
+                    src="/icons/earth.png"
+                    width={70}
+                    height={70}
+                    alt=""
+                    className="absolute top-0 right-0 translate-x-1/1 -translate-y-1/4 animate-spin opacity-75"
+                  />{" "}
+                </span>{" "}
+              </span>
             </div>
           </div>
         </div>
