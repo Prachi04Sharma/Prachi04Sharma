@@ -32,5 +32,69 @@
 }
 
 .animate-spin {
-  animation: spin 3s linear infinite;
+  animation: spin 6s linear infinite;
+}
+
+@keyframes dance {
+  0% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(-3deg);
+  }
+}
+
+.animate-dance {
+  animation: dance 0.75s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-blink {
+  animation: blink 5s linear infinite;
+}
+
+@keyframes scaling {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-scaling {
+  animation: scaling 5s linear infinite;
+}
+
+@keyframes bouncing {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(0.05%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-bouncing {
+  animation: bounce 5s linear infinite;
 }
