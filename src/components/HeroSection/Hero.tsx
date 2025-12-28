@@ -54,9 +54,17 @@ export default function Hero() {
               <div>
                 <div className="inline-block text-5xl w-full">
                   <div className="w-full text-left">
-                    <span className="text-6xl">2X</span> Smart India Hackathon Winner:{" "}
+                    <span className="text-6xl">2X</span> Smart India Hackathon
+                    Winner:{" "}
                   </div>
                 </div>{" "}
+                <Image
+                  src="/icons/sih.png"
+                  width={70}
+                  height={70}
+                  alt=""
+                  className="inline-block"
+                />{" "}
                 <span className="relative">
                   1/50,000 Teams in{" "}
                   <Image
