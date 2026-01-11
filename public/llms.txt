@@ -1,0 +1,64 @@
+# Prachi Sharma
+**Email**: prachi2k5sharma@gmail.com
+**Phone**: +91 6005905828
+**Links**: [Github](https://github.com/Prachi04Sharma) | [LinkedIn](https://www.linkedin.com/in/prachi04sharma/) | Leetcode
+
+## Education
+**Bachelor of Technology in Computer Science and Engineering**
+Model Institute of Engineering and Technology Jammu, J&K
+*November 2022 - Present | Jammu, India*
+**CGPA**: 8.06
+
+## Experience
+
+**Scorora | SDE Intern**
+*May 2025 - Present*
+- Working as an SDE Intern at Scorora, developing scalable and performant frontend architecture for their mobile (React Native) application and web landing page using best coding practices.
+- Collaborating closely with the CTO and a team of developers, integrating RESTful APIs and managing state to deliver seamless, dynamic, and real-time user experiences.
+- Implementing secure authentication flows, protected routes, and client-side logic to enhance application reliability while creating responsive, accessible UI components with clean, engaging design.
+- Handling build processes, environment setups, and Git workflows to support efficient frontend CI/CD pipelines and ensure maintainable, production-ready code.
+
+**Uncapp | Web Developer Intern**
+*Feb 2025 - May 2025*
+- Developed scalable and performant frontend architecture for modern web applications using best coding practices.
+- Integrated RESTful APIs and managed state to deliver seamless, dynamic, and real-time user experiences.
+- Implemented secure authentication flows, protected routes, and client-side logic to enhance application reliability.
+- Created responsive, accessible UI components ensuring clean design and smooth, engaging user interactions.
+- Handled build processes, environment setups, and Git workflows to support efficient frontend CI/CD pipelines.
+
+## Projects
+
+**DeshKriti: AI-Powered Multivendor NRI E-Commerce Marketplace**
+*Stack: React, Redux, AI Integration*
+- Designed and developed responsive UI for user, seller, and admin dashboards using React and Redux.
+- Integrated voice-enabled AI assistant (Bharat Post GPT) for personalized product search and storytelling.
+- Implemented AR-based product visualization and 3D map for immersive shopping experiences.
+- Developed smooth, secure user flows for seller onboarding, role-based access, and order management.
+- Ensured performance optimization, accessibility, and seamless API integration for a scalable frontend experience.
+
+**Samarth: AI-Powered Mobile App for Early Neuro-Motor Disorder Detection**
+*Stack: React, Tailwind CSS, ML Integration*
+- Developed the frontend of an AI-powered application for neuro-motor disorder detection (Parkinson’s, ALS, Bell’s Palsy), enabling symptom tracking through facial, voice, and movement analysis.
+- Built a responsive and accessible interface with React and Tailwind CSS, ensuring a seamless experience across devices for patients and caregivers.
+- Integrated frontend components with computer vision and ML services to visualize real-time health assessments and alerts.
+- Focused on usability and accessibility for diverse user groups, including seniors and people with motor disabilities, through thoughtful design and testing.
+
+## Skills
+- **Programming Languages**: C++, Python, JavaScript
+- **Frontend**: React.js, React Native, HTML, CSS, JavaScript, Redux, Tailwind CSS
+- **Backend**: Django, Node.js, Express.js, Python, FastAPI, RESTful APIs, JWT, WebSockets
+- **Databases**: MySQL, MongoDB, SQL, Mongoose
+- **Machine Learning & AI**: CNN, RNN, OCR, NLP, TensorFlow, PyTorch, OpenCV, EDA, Prompt Engineering
+- **DevOps & Tools**: Git, GitHub, Docker, Postman, AWS, CI/CD, Tableau
+
+## Accomplishments
+
+**Smart India Hackathon (SIH) – National Winner 2024 & 2025**
+- **Smart India Hackathon 2024 (Software Edition)**: Secured 1st Rank nationally among 60,000+ teams in the Sustainable Software Engineering track.
+- **Smart India Hackathon 2025 (Hardware Edition)**: Secured 1st Rank nationally among 8 lakh+ participants.
+
+**Qualified for Grand Finale – IEEE YESIST’12 2025**
+- Selected for the IEEE YESIST International Grand Finale representing India in Malaysia (Aug 2025) and recognized among the Top 10 projects globally.
+
+**Chairperson IEEE WIE Student Branch**
+- Spearheaded event coordination, strategic communication, and organizational leadership for IEEE WIE, driving impactful student engagement and innovation.
