@@ -9,72 +9,72 @@ export default function Hero() {
   return (
     <div className="relative h-full w-full">
       <section className="relative h-screen w-11/12 max-w-[1400px] mx-auto overflow-x-hidden">
-      <div className="flex flex-row items-center justify-center h-fit w-11/12 mx-auto gap-x-4 py-2">
-        <Link
-          className="relative group flex items-center gap-x-2"
-          href="https://www.linkedin.com/in/prachi2k5sharma"
-          target="_blank"
-        >
-          <InlineImage
-            src="/header/linkedin-icon.png"
-            width={100}
-            height={102}
-            alt=""
-            className="aspect-100/102 w-7 md:w-10"
-          />
-          <span className="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-40 h-full py-3 transition-all duration-1000 text-base md:text-lg">
-            LinkedIn
-          </span>
-        </Link>
-        <Link
-          className="relative group flex items-center gap-x-2"
-          href="https://github.com/Prachi04Sharma"
-          target="_blank"
-        >
-          <InlineImage
-            src="/header/github-icon.png"
-            width={256}
-            height={250}
-            alt=""
-            className="aspect-256/250 w-7 md:w-10"
-          />
-          <span className="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-40 h-full py-3 transition-all duration-1000 text-base md:text-lg">
-            GitHub
-          </span>
-        </Link>
-        <Link
-          className="relative group flex items-center gap-x-2"
-          href="https://leetcode.com/u/Prachi_04sharma/"
-          target="_blank"
-        >
-          <InlineImage
-            src="/header/leetcode-icon-new.png"
-            width={100}
-            height={121}
-            alt=""
-            className="aspect-100/121 w-7 md:w-10"
-          />
-          <span className="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-40 h-full py-3 transition-all duration-1000 text-base md:text-lg">
-            LeetCode
-          </span>
-        </Link>
-        <Link
-          className="relative group flex items-center gap-x-2"
-          href="/Prachi_Sharma_Resume.pdf"
-          target="_blank"
-        >
-          <InlineImage
-            src="/header/resume-icon.png"
-            width={100}
-            height={120}
-            alt=""
-            className="aspect-100/120 w-7 md:w-10"
-          />
-          <span className="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-40 h-full py-3 transition-all duration-1000 text-base md:text-lg">
-            Resume
-          </span>
-        </Link>
-      </div>
+        <div className="flex flex-row items-center justify-center h-fit w-11/12 mx-auto gap-x-4 py-2">
+          <Link
+            className="relative group flex items-center gap-x-2"
+            href="https://www.linkedin.com/in/prachi2k5sharma"
+            target="_blank"
+          >
+            <InlineImage
+              src="/header/linkedin-icon.png"
+              width={100}
+              height={102}
+              alt=""
+              className="aspect-100/102 w-7 md:w-10"
+            />
+            <span className="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-40 h-full py-3 transition-all duration-1000 text-base md:text-lg">
+              LinkedIn
+            </span>
+          </Link>
+          <Link
+            className="relative group flex items-center gap-x-2"
+            href="https://github.com/Prachi04Sharma"
+            target="_blank"
+          >
+            <InlineImage
+              src="/header/github-icon.png"
+              width={256}
+              height={250}
+              alt=""
+              className="aspect-256/250 w-7 md:w-10"
+            />
+            <span className="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-40 h-full py-3 transition-all duration-1000 text-base md:text-lg">
+              GitHub
+            </span>
+          </Link>
+          <Link
+            className="relative group flex items-center gap-x-2"
+            href="https://leetcode.com/u/Prachi_04sharma/"
+            target="_blank"
+          >
+            <InlineImage
+              src="/header/leetcode-icon-new.png"
+              width={100}
+              height={121}
+              alt=""
+              className="aspect-100/121 w-7 md:w-10"
+            />
+            <span className="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-40 h-full py-3 transition-all duration-1000 text-base md:text-lg">
+              LeetCode
+            </span>
+          </Link>
+          <Link
+            className="relative group flex items-center gap-x-2"
+            href="/Prachi_Sharma_Resume.pdf"
+            target="_blank"
+          >
+            <InlineImage
+              src="/header/resume-icon.png"
+              width={100}
+              height={120}
+              alt=""
+              className="aspect-100/120 w-7 md:w-10"
+            />
+            <span className="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-40 h-full py-3 transition-all duration-1000 text-base md:text-lg">
+              Resume
+            </span>
+          </Link>
+        </div>
         <div className="flex flex-col items-center justify-start h-full w-full text-center text-[60px] sm:text-[120px] md:text-[120px] lg:text-[180px] leading-2">
           <h1 className="relative">
             <span className="flex items-center justify-center -rotate-4 -z-10">
