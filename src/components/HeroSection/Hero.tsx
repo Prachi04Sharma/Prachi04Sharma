@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <div className="relative h-full w-full">
       <section className="relative h-screen w-11/12 max-w-[1400px] mx-auto overflow-x-hidden">
-        <div className="flex flex-row items-center justify-center h-fit w-11/12 mx-auto gap-x-4 py-2">
+        <div className="font-more-sugar flex flex-row items-center justify-center h-fit w-11/12 mx-auto gap-x-4 py-2">
           <Link
             className="relative group flex items-center gap-x-2"
             href="https://www.linkedin.com/in/prachi2k5sharma"
@@ -22,7 +22,7 @@ export default function Hero() {
               alt=""
               className="aspect-100/102 w-7 md:w-10"
             />
-            <span className="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-40 h-full py-3 transition-all duration-1000 text-base md:text-lg">
+            <span className="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-40 h-full py-3 transition-all duration-1000 text-base md:text-xl font-medium">
               LinkedIn
             </span>
           </Link>
@@ -38,7 +38,7 @@ export default function Hero() {
               alt=""
               className="aspect-256/250 w-7 md:w-10"
             />
-            <span className="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-40 h-full py-3 transition-all duration-1000 text-base md:text-lg">
+            <span className="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-40 h-full py-3 transition-all duration-1000 text-base md:text-xl font-medium">
               GitHub
             </span>
           </Link>
@@ -54,7 +54,7 @@ export default function Hero() {
               alt=""
               className="aspect-100/121 w-7 md:w-10"
             />
-            <span className="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-40 h-full py-3 transition-all duration-1000 text-base md:text-lg">
+            <span className="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-40 h-full py-3 transition-all duration-1000 text-base md:text-xl font-medium">
               LeetCode
             </span>
           </Link>
@@ -70,7 +70,7 @@ export default function Hero() {
               alt=""
               className="aspect-100/120 w-7 md:w-10"
             />
-            <span className="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-40 h-full py-3 transition-all duration-1000 text-base md:text-lg">
+            <span className="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-40 h-full py-3 transition-all duration-1000 text-base md:text-xl font-medium">
               Resume
             </span>
           </Link>
@@ -111,7 +111,7 @@ export default function Hero() {
               alt=""
               className="-translate-y-1/10 md:-translate-y-1/6 md:mr-auto w-full sm:size-[450px] md:size-[400px] lg:size-[550px] xl:size-[600px]"
             />
-            <div className="flex flex-col items-start justify-start h-fit w-fit text-lg md:text-xl lg:text-2xl xl:text-3xl gap-3 md:gap-5 self-start md:my-20 max-md:-translate-y-1/8">
+            <div className="flex flex-col items-start justify-start h-fit w-fit text-lg md:text-xl font-medium lg:text-2xl xl:text-3xl gap-3 md:gap-5 self-start md:my-20 max-md:-translate-y-1/8">
               <div className="text-left flex flex-row items-start justify-start">
                 <Image
                   src="/asset/asset-8.gif"
